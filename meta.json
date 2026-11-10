@@ -1,0 +1,26 @@
+{
+ "name": "diffutils",
+ "version": "3.10",
+ "license": "GPL-3.0-or-later",
+ "homepage": "",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "diffutils-3.10.tar.xz"
+ ],
+ "desc": "GNU diffutils 3.10: diff, cmp, diff3, sdiff",
+ "file": "diffutils-3.10.tpkg",
+ "size": 141257,
+ "sha256": "4182add67b65943ded50dff97da2d0dad2094681c9b8ece1af9dceb82b096208",
+ "unpacked": 296240,
+ "min_build": 619,
+ "depends": [],
+ "commands": {
+  "cmp": "bin/cmp",
+  "diff": "bin/diff",
+  "diff3": "bin/diff3",
+  "sdiff": "bin/sdiff"
+ }
+}
